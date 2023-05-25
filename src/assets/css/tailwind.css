@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-size: 16px;
+  @apply bg-black-asphalt font-body m-0 p-0;
+}
+h1.djcg-header-1 {
+  @apply font-headline text-5xl sm:text-6xl md:text-7xl font-extrabold text-white;
+}
+h2.djcg-header-2 {
+  @apply font-headline text-4xl sm:text-5xl font-extrabold text-white;
+}
+h3.djcg-header-3 {
+  @apply font-headline text-2xl sm:text-3xl font-bold mb-5;
+}
+h3.djcg-header-4 {
+  @apply font-headline text-xl sm:text-2xl font-semibold mb-4;
+}
+label.djcg-label {
+  @apply font-bold;
+}
+input.djcg-input, select.djcg-select, textarea.djcg-textarea {
+  @apply bg-white text-base p-2;
+}
+textarea[name="message"]:invalid {
+  border-color: inherit;
+  box-shadow: none;
+}
+.djcg-icon:hover {
+  @apply text-pink-mid;
+}
+.slick-dots.custom-dots {
+  @apply relative bottom-0;
+}
+.slick-dots.custom-dots li, .slick-dots.custom-dots li button, .slick-dots.custom-dots li button:before {
+  @apply w-6 h-6;
+}
+.slick-dots.custom-dots li button:before {
+  @apply text-base;
+}
+
+.drop-shadow-custom {
+  filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.5))
+}
+.react-parallax-bgimage {
+  width: auto!important;
+  max-width: 100%!important;
+  height: auto!important;
+  min-height: 100vh;
+}
+#contact-parallax .react-parallax-bgimage {
+  z-index: 1;
+}

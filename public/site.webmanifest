@@ -1,0 +1,29 @@
+{
+    "name": "Seasoned maestro of dance, electronic, hip-hop, and underground house music, renowned for mesmerizing sets and creating unforgettable atmospheres | dj Chris G",
+    "short_name": "dj Chris G",
+    "icons": [
+	  {
+      	"src": "favicon.ico",
+	      "sizes": "64x64 32x32 16x16",
+      	"type": "image/x-icon"
+    	  },
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
