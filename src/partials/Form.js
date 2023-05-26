@@ -162,7 +162,7 @@ const FormComponent = ({
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
-        'form-name': 'dj Chris G Contact',
+        'form-name': 'dj-chris-g-contact',
         ...values
       })
     })
